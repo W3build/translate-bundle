@@ -1,0 +1,29 @@
+{
+    "name": "w3build/translate-bundle",
+    "type": "w3build-bundle",
+    "description": "W3build translate bundle",
+    "keywords": [],
+    "homepage": "http://w3build.cz",
+    "license": "EULA",
+    "authors": [
+        {
+            "name": "Lukáš Jahoda",
+            "email": "lukas.jahoda@w3build.cz"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/dependency-injection" : "~2.2",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*"
+    },
+    "autoload": {
+        "psr-0": { "W3build\\TranslateBundle\\": "" }
+    },
+    "target-dir": "W3build/TranslateBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1-dev"
+        }
+    }
+}
