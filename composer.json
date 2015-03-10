@@ -17,9 +17,8 @@
         "doctrine/doctrine-fixtures-bundle": "2.2.*"
     },
     "autoload": {
-        "psr-0": { "W3build\\TranslateBundle\\": "" }
+        "psr-0": { "W3build\\TranslateBundle": "src" }
     },
-    "target-dir": "W3build/TranslateBundle",
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
